@@ -10,6 +10,6 @@ sim()
   .wait(3000, function(){
     return document.getElementById('result_div');
   })
-  .click('checkbox_1)
+  .click('checkbox_1')
   .run();
 ```
