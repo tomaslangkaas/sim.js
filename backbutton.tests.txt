@@ -1,0 +1,18 @@
+sim()
+  .hash('home')
+  .test('#1', function(){
+    return backbutton.current() === 'home'
+  })
+  .test('#2', function(){
+    return contains('maindiv', 'home page')
+  })
+  .onprogress(function(sim){
+  
+  })
+  .onerror(function(sim){
+  
+  })
+  .oncomplete(function(sim){
+  
+  })
+  .run();
