@@ -5,7 +5,7 @@ micro-library for simple user interaction simulation and testing in browsers
 //create new simulation instance
 sim()
   //set value of element with id `searchfield_1` to `What is sim.js?`
-  .setvalue('searchfield_1', 'What is sim.js?')
+  .write('searchfield_1', 'What is sim.js?')
   //simulate keydown event with enter key on element with id 'searchButton'
   .fire('searchButton', 'keydown', {'keyCode': 13})
   //test if element with id `result_div` exists,
