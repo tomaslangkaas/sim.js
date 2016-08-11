@@ -39,14 +39,14 @@ Create new simulation instance. Provide an optional `stepPause` in milliseconds 
 
 ### Instance methods
 
-#### .write(elementId, value)
-#### .click(elementId)
-#### .fire(elementId, eventType, eventProperties)
-#### .test(testFunction[, allowanceTime])
-#### .hash(fragment [, testFunction][, allowanceTime])
-#### .run([onComplete][, onFailure][, onProgress])
+#### `.write(elementId, value)`
+#### `.click(elementId)`
+#### `.fire(elementId, eventType, eventProperties)`
+#### `.test(testFunction[, allowanceTime])`
+#### `.hash(fragment [, testFunction][, allowanceTime])`
+#### `.run([onComplete][, onFailure][, onProgress])`
 
 ### Instance properties
 
-#### .index
-#### .steps
+#### `.index`
+#### `.steps`
