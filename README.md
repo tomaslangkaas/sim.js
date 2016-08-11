@@ -30,3 +30,23 @@ sim()
     }
   );
 ```
+
+## API
+
+### `sim([stepPause])`
+
+Create new simulation instance. Provide an optional `stepPause` in milliseconds to slow down and watch the simulation.
+
+### Instance methods
+
+#### .write(elementId, value)
+#### .click(elementId)
+#### .fire(elementId, eventType, eventProperties)
+#### .test(testFunction[, allowanceTime])
+#### .hash(fragment [, testFunction][, allowanceTime])
+#### .run([onComplete][, onFailure][, onProgress])
+
+### Instance properties
+
+#### .index
+#### .steps
