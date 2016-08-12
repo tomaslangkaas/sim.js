@@ -35,7 +35,7 @@ sim()
 
 * Small library (~1.3 kb minified), no dependencies
 * Wide browser coverage (even works in IE6)
-* Useful for test-driven development of simple offline client-side user interfaces (when click/tap and text input are the only user actions)
+* Useful for test-driven development of simple offline-enabled or server-independent client-side user interfaces (when click/tap and text input are the only user actions)
 * MIT-licensed
 
 ## API
@@ -64,7 +64,7 @@ Adds a new step to the simulation: Executes a testing function to test whether s
 
 #### `.hash(fragment [, testFunction][, allowanceTime])`
 
-Adds a new step to the simulation: Sets `window.location.hash` to `fragment`. An optional `testFunction` and `allowanceTime` argument may be provided (see the `.test()` method above). Useful for testing location hash-based single page app routing.
+Adds a new step to the simulation: Sets `window.location.hash` to `fragment`. An optional `testFunction` and `allowanceTime` argument may be provided (see the `.test()` method above). Useful for testing single page apps with hash-based routing.
 
 #### `.run([onComplete][, onFailure][, onProgress])`
 
