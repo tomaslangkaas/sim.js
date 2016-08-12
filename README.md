@@ -35,7 +35,7 @@ sim()
 
 * Small library (~1.3 kb minified), no dependencies
 * Wide browser coverage (even works in IE6)
-* Useful for test-driven development of simple offline client-side user interfaces
+* Useful for test-driven development of simple offline client-side user interfaces (when click/tap and text input are the only user actions)
 * MIT-licensed
 
 ## API
