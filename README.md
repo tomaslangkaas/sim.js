@@ -31,6 +31,13 @@ sim()
   );
 ```
 
+## Features
+
+* Small library (~1.3 kb minified), no dependencies
+* Wide browser coverage (even works in IE6)
+* Useful for test-driven development of simple offline client-side user interfaces
+* MIT-licensed
+
 ## API
 
 ### `sim([stepDelay])`
@@ -64,12 +71,12 @@ Adds a new step to the simulation: Sets `window.location.hash` to `fragment`. An
 Runs the simulation with all provided steps in sequence, until all steps complete or simulation fails. Optional callback functions can be provided:
 
 * `onComplete` is called if the simulation completes without failure,
-* `onFailure` is if the simulation fails,
+* `onFailure` is called if the simulation fails,
 * `onProgress` is called after each successful simulation step.
  
 All callback functions are called with the simulation instance object as the single argument.
 
-#### `.fail(sim)`
+#### `.fail(simInstance)`
 
 The `onFailure` callback function. For internal use.
 
