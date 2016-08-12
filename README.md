@@ -33,9 +33,9 @@ sim()
 
 ## API
 
-### `sim([stepPause])`
+### `sim([stepDelay])`
 
-Create new simulation instance. Provide an optional `stepPause` in milliseconds to slow down and watch the simulation.
+Create new simulation instance. Provide an optional `stepDelay` in milliseconds to slow down and watch the simulation.
 
 ### Instance methods
 
@@ -45,8 +45,10 @@ Create new simulation instance. Provide an optional `stepPause` in milliseconds 
 #### `.test(testFunction[, allowanceTime])`
 #### `.hash(fragment [, testFunction][, allowanceTime])`
 #### `.run([onComplete][, onFailure][, onProgress])`
+#### `fail(sim)`
 
 ### Instance properties
 
 #### `.index`
+#### `.wait`
 #### `.steps`
